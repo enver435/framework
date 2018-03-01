@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^request ajax/request.php
+
+RewriteRule ^files/(.*)/(big|medium|thumb)/([0-9a-zA-Z-_/]+).(jpg|png) uploads/index.php?folder=$1&size=$2&imageHash=$3&fileType=$4
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]

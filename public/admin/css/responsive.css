@@ -1,0 +1,22 @@
+/*
+	# @Author: Enver Abbasov | https://www.facebook.com/enverabbasov435
+	# @Date:   2018-02-05 19:52:46
+	# @Email:  abbasovenver1999@gmail.com
+	# @Last Modified time: 2018-02-05 20:48:41
+*/
+
+@media (max-width: 1170px) 
+{
+	.nav li:hover > ul {display: block !important;height: 100% !important;}
+	.nav li > ul{display: none !important;}
+	.nav li > ul > li {margin-left: 60px !important;padding: 0;}
+	.nav li > ul > li a {display: block;width: 100%;height: 100%;padding: 15px;}
+	.nav i {padding: 0 7px !important;}
+	.logo .full {display: none !important;}
+	.logo .short {display: flex;}
+}
+
+@media (max-width: 768px)
+{
+	.nav li > ul > li {margin-left: 0 !important;}
+}
