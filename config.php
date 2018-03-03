@@ -10,7 +10,7 @@
 	/* DATABASE SETTINGS */
 	$config['db'] = array(
 		'host'   => 'localhost',
-		'dbname' => 'galericilerden',
+		'dbname' => 'mysql',
 		'user'	 => 'root',
 		'pass'   => ''
 	);
